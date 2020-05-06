@@ -1,0 +1,23 @@
+body {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+canvas {
+    margin: 0 auto;
+}
+#btn {
+    position: absolute;
+    width: 150px;
+    height: 45px;
+    align-self: flex-start;
+    margin-top: 20px;
+    background: rgb(63,251,239);
+    background: linear-gradient(90deg, rgba(63,251,239,1) 0%, rgba(162,209,73,1) 100%);
+    border: none;
+    cursor: pointer; 
+    border-radius: 10px;
+    font-weight: bold;
+}
