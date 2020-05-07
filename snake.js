@@ -133,7 +133,7 @@ function draw(){
     if(snakeX < box || snakeX > 17 * box || snakeY < 3 * box || snakeY > 17 * box || collision(newHead, snake)){
         clearInterval(game);
         colidir.play();
-        // alert("Game Over !"+" "+"Pontos: "+ score);
+        alert("Game Over !"+" "+"Pontos: "+ score);
     }
 
     
